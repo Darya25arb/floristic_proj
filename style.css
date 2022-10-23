@@ -1,0 +1,119 @@
+body {
+    background-color: #ddc3df;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgb(242, 242, 123);
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 15%;
+    border: 1px solid black;
+}
+
+.section-about {
+    height: 450px;
+    background-image: url('flowers2.jpg');
+    background-position: 50% 80%;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+.flowers {
+    display: flex;
+    flex-direction: row;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.flowers div {
+    text-align: center;
+}
+
+.flowers img {
+    width: 90%;
+    height: 65%;
+    border: 1px solid black;
+}
+
+button {
+    background-color: rgb(173, 124, 219);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.map_title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(67, 2, 76);
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+.section_icons {
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    margin-top: -60px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px 20px;
+    background: rgb(173, 124, 219);
+    color: white;
+}
+
+
+
+
+

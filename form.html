@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action_page.php">
+        <div class="imgcontainer">
+            <img src="https://cdn-icons-png.flaticon.com/512/346/346218.png" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="container">
+            <label for="uname"><b>Имя пользователя</b></label>
+            <input type="text" placeholder="Введите имя пользователя" name="uname" required>
+    
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Введите пароль" name="psw" required>
+    
+            <button type="submit">Войти</button>
+            <label>
+            <input type="checkbox" checked="checked" name="remember">Запомнить меня
+            </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Отмена</button>
+            <span class="psw">Забыли <a href="#">пароль?</a></span>
+        </div>
+        </form>
+</body>
+</html>

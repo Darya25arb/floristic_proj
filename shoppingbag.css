@@ -1,0 +1,100 @@
+body {
+    background-color: #ddc3df;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgb(242, 242, 123);
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 15%;
+    border: 1px solid black;
+}
+
+.buy {
+    display: flex;
+    margin-left: 5%;
+}
+
+#buy_flower {
+    width: 300px;
+    height: 300px;
+}
+
+.total {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(173, 124, 219);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+.map_title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(67, 2, 76);
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(67, 2, 76);
+}
+
+
+footer {
+    padding: 10px 20px;
+    background: rgb(173, 124, 219);
+    color: white;
+}
+
+
+
+
+
