@@ -43,7 +43,7 @@ li:last-child {
 
 .section-about {
     height: 450px;
-    background-image: url('flowers2.jpg');
+    background-image: url('../img/flowers2.jpg');
     background-position: 50% 80%;
     background-size: cover;
     margin-bottom: 5%;
